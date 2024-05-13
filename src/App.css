@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputSearchContainer{
+    padding: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.inputSearch{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
