@@ -53,7 +53,7 @@ export default function Countries() {
   return (
     <>
       <div className="inputSearchContainer">
-        <input className="inputSearch" type="search" name="q" value={searchInput} onChange={e => handleSearch(e.target.value)} />
+        <input className="inputSearch" type="text" name="q" value={searchInput} onChange={e => handleSearch(e.target.value)} />
       </div>
       <div
         style={{
