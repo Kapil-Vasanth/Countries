@@ -12,13 +12,14 @@ function Country({ imgUrl, alt, text }) {
         justifyContent: "center",
         gap: "10px",
       }}
+      className="countryCard"
     >
       <img
         src={imgUrl}
         alt={alt}
         style={{ width: "100%", height: "100%", margin: "auto" }}
       />
-      <h3 style={{ textAlign: "center", marginTop: "10px" }}>{text}</h3>
+      <h2 style={{ textAlign: "center", marginTop: "10px" }}>{text}</h3>
     </div>
   );
 }
