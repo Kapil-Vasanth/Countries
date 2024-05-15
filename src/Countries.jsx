@@ -64,6 +64,7 @@ export default function Countries() {
           gap: "20px",
           justifyContent:'center'
         }}
+        className="countryCard"
       >
         {filterCountries.map((country) => (
               <Country
