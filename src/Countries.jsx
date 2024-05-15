@@ -13,7 +13,6 @@ function Country({ imgUrl, alt, text }) {
         gap: "10px",
       }}
 
-      className="countryCard"
     >
       <img
         src={imgUrl}
