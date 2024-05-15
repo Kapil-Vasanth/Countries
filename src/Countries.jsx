@@ -44,7 +44,7 @@ export default function Countries() {
   function handleSearch(val){
     const filteredCountry = countries.filter(country => {
         let text = '' + country.name.common
-        return text.toLowerCase().search(val) > -1
+        return text.toLowerCase().search(val.toLowerCase()) > -1
     })
     setFilterCountries(prev => filteredCountry)
     setSearchInput(prev => val)
